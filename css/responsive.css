@@ -1,0 +1,447 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    /* Banner Section */
+    .group-1 {
+        height: 52vh !important;
+    }
+    /* Burger Gallary Section */
+    .g-text{
+        width: 50% !important;
+    }
+    /* Order Section */
+    .burger-item p {
+        width: 274px !important;
+    }
+    /* Contact Section */
+    .contant-from-section {
+        height: 42vh !important;
+    }
+    /* Fotter Section */
+    .fotter {
+        height: 53vh !important;
+    }
+    .ft-right {
+        padding: 189px 30px !important;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    /* Banner Section */
+    .banner {
+        margin: 128px 0 !important;
+    }
+    .banner p {
+        font-size: 20px !important;
+        padding: 6px !important;
+    }
+    .banner h1 {
+        font-size: 90px !important;
+    }
+    .banner h2 {
+        font-size: 50px !important;
+    }
+    /* Order Section */
+    .burger-item p {
+        margin: 20px auto !important;
+    }
+    /* Contact Section */
+    .contant-from-section {
+        height: 60vh !important;
+    }
+    .c-input-tag {
+        padding: 40px 0 !important;
+    }
+    .c-title h2 {
+        font-size: 24px !important;
+    }
+    .c-title h1 {
+        font-size: 26px !important;
+    }
+    .input-item input {
+        padding: 12px 14px !important;
+        font-size: 18px !important;
+        margin-left: 0 !important;
+        margin-bottom: 10px !important;
+        margin-right: 10px !important;
+    }
+    .input-item button {
+        margin-left: 0 !important;
+        height: 48px !important;
+    }
+    /* Fotter Section */
+    .fb-left {
+        text-align: center !important;
+    }
+    .ft-left {
+        padding: 15px 36px !important;
+        text-align: center !important;
+    }
+    .ft-left p {
+        font-size: 18px !important;
+        margin: 20px 0 !important;
+        line-height: 27px !important;
+    }
+    .ft-right {
+        padding: 30px 30px !important;
+    }
+    .fb-right ul{
+        text-align: center !important;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    /* Order Section */
+    .burger-item p {
+        width: 80% !important;
+        margin: 20px auto !important;
+    }
+    /* Contact Section */
+    .contant-from-section {
+        background-position: inherit !important;
+        height: 70vh !important;
+    }
+    .c-input-tag {
+        padding: 40px 0 !important;
+    }
+    .c-title h2 {
+        font-size: 24px !important;
+    }
+    .c-title h1 {
+        font-size: 26px !important;
+    }
+    .input-item input {
+        padding: 10px 12px !important;
+        font-size: 18px !important;
+        margin-left: 0 !important;
+        margin-bottom: 10px !important;
+        margin-right: 10px !important;
+    }
+    .input-item button {
+        margin-left: 0 !important;
+        height: 48px !important;
+    }
+    /* Fotter Section */
+    .ft-right {
+        padding: 137px 42px !important; 
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    /* Header Section */
+    .logo {
+        text-align: center !important;
+    }
+    .h-menu {
+        text-align: center !important;
+    }
+    .h-m ul {
+        justify-content: center !important;
+    }
+    .h-m ul li {
+        margin-left: 26px !important;
+    }
+    /* Banner Section */
+    .banner {
+        margin: 28px 0 !important;
+    }
+    .banner p {
+        font-size: 18px !important;
+        padding: 6px !important;
+    }
+    .banner h1 {
+        font-size: 76px !important;
+    }
+    .banner h2 {
+        font-size: 40px !important;
+    }
+    /* Burger Gallary */
+    .g-text {
+        width: 50% !important;
+    }
+    /* Order Section */
+    .order-title h1 {
+        font-size: 44px !important;
+    }
+    .burger-item p {
+        margin: 20px auto !important;
+    }
+    /* Contant Section */
+    .c-input-tag {
+        padding: 40px 0 !important;
+    }
+    .c-title h2 {
+        font-size: 24px !important;
+    }
+    .c-title h1 {
+        font-size: 26px !important;
+    }
+    .input-item input {
+        padding: 10px 12px !important;
+        font-size: 18px !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    .input-item button {
+        margin-left: 0 !important;
+    }
+    /* Fotter Section */
+    .ft-left {
+        padding: 5px 35px !important;
+    }
+    .ft-left img {
+        width: 152px !important;
+    }
+    .ft-left p {
+        font-size: 16px !important;
+        margin: 17px 0 !important;
+        line-height: 25px !important;
+    }
+    .ft-right {
+        padding: 0px 34px !important;
+    }
+    .ft-location img {
+        height: 20px !important;
+    }
+    .ft-location p {
+        font-size: 16px !important;
+    }
+    .ft-location2 img {
+        margin-right: 25px !important;
+        height: 20px !important;
+        width: 26px !important;
+    }
+    .ft-location2 p {
+        font-size: 18px !important;
+    }
+    .fb-left {
+        font-size: 17px !important;
+        padding: 0 30px !important;
+        margin-top: 0px !important;
+        text-align: center !important;
+    }
+    .fb-right {
+        margin-top: 0px !important;
+        padding: 5px 30px !important;
+    }
+    .fb-right ul{
+        text-align: center;
+    }
+    .fb-right a {
+        padding: 8px 10px !important;
+        font-size: 16px !important;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    /* Header Section */
+    .logo {
+        text-align: center !important;
+    }
+    .logo img {
+        width: 55% !important;
+    }
+    .h-content {
+        text-align: center !important;
+        margin-top: 20px !important;
+    }
+    .h-menu img {
+        width: 34px !important;
+    }
+    .h-menu samp {
+        font-size: 12px !important;
+    }
+    .h-m ul {
+        justify-content: center !important;
+    }
+    .h-m ul li {
+        margin-left: 18px !important;
+    }
+    .h-m ul li a {
+        font-size: 16px !important;
+        letter-spacing: 1px !important;
+    }
+    /* Banner Section */
+    .banner {
+        margin: 56px 0 !important;
+    }
+    .banner p {
+        padding: 5px !important;
+        font-size: 14px !important;
+    }
+    .banner h1 {
+        font-size: 57px !important;
+    }
+    .banner h2 {
+        font-size: 40px !important;
+    }
+    /* Burger Gellary */
+    .burger-gallary {
+        padding: 25px 0 !important;
+    }
+    .g-text {
+        width: 70% !important;
+        top: 30px !important;
+        left: 32px !important;
+    }
+    .burger-gallary h1 {
+        font-size: 29px !important;
+    }
+    .g-text p{
+        margin-bottom: 5px;
+    }
+    /* Burger Order */
+    .order-title button {
+        font-size: 16px !important;
+    }
+    .burger-order-section .order-title h1 {
+        font-size: 26px !important;
+    }
+    .order-title p {
+        font-size: 12px !important;
+        letter-spacing: 0px !important;
+    }
+    .burger-item p {
+        margin: 20px auto !important;
+        width: 268px !important;
+    }
+    .burger-item button {
+        padding: 8px 20px !important;
+    }
+    /* Slider Section */
+    .slider-section {
+        padding: 5px 25px !important;
+    }
+    .slider-burger-section {
+        padding: 80px 10px !important;
+    }
+    .s-text h2 {
+        font-size: 26px !important;
+    }
+    .s-text h1 {
+        font-size: 36px !important;
+    }
+    .s-text p {
+        line-height: 20px !important;
+        font-size: 12px !important;
+    }
+    /* Contact Section */
+    .contant-from-section {
+        background-position: inherit !important;
+        background-size: auto !important;
+        height: 127vh !important;
+    }
+    .c-input-tag {
+        padding: 40px 0 !important;
+    }
+    .c-title h2 {
+        font-size: 24px !important;
+    }
+    .c-title h1 {
+        font-size: 26px !important;
+    }
+    .input-item input {
+        padding: 10px 12px !important;
+        font-size: 18px !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    .input-item button {
+        margin-left: 0 !important;
+    }
+    /* Fotter Section */
+    .ft-left {
+        padding: 9px 30px !important;
+    }
+    .ft-left p {
+        font-size: 12px !important;
+        margin: 10px 0 !important;
+        line-height: 17px !important;
+    }
+    .ft-right {
+        padding: 10px 37px !important;
+    }
+    .ft-location {
+        margin-bottom: 10px;
+        width: 287px !important;
+    }
+    .ft-location img {
+        height: 17px !important;
+        margin-right: 25px !important;
+    }
+    .ft-location p {
+        font-size: 12px !important;
+    }
+    .ft-location2 img {
+        margin-right: 17px !important;
+        height: 17px !important;
+        width: 22px !important;
+    }
+    .ft-location2 p {
+        font-size: 16px !important;
+    }
+    .fb-left {
+        font-size: 19px !important;
+        padding: 4px 34px !important;
+        margin-top: 5px !important;
+    }
+    .fb-left p {
+        font-size: 13px !important;
+        padding: 0px !important;
+        margin-top: -9px !important;
+    }
+    .fb-right {
+        margin-top: -12px !important;
+        padding: 11px 66px 0 66px !important;
+    }
+    .fb-right a {
+        padding: 6px 9px !important;
+        font-size: 15px !important;
+    }
+  }

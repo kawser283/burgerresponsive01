@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header Section */
+.group-1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+.logo img{
+	cursor: pointer;
+}
+.h-content{
+    text-align: right;
+}
+.h-menu img{
+	cursor: pointer;
+}
+.h-menu samp{
+	font-size: 16px;
+	color: #42200b;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+}
+.h-m {
+	margin-top: 15px;
+}
+.h-m ul{
+	display: flex;
+	justify-content: right;
+}
+.h-m ul li{
+	display: inline-block;
+	list-style: none;
+	text-transform: uppercase;
+	margin-left: 45px;
+}
+.h-m ul li a{
+	color: #42200b;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 3px;
+    transition: .4s;
+}
+.h-m ul li a:hover{
+    color: #bb5210;
+}
+.banner{
+    margin: 150px 0;
+}
+.banner p {
+	font-family: 'Bebas Neue', cursive;
+	color: #42200b;
+	font-size: 23px;
+	padding: 10px;
+	border: 2px dashed #42200b;
+	display: inline-block;
+	letter-spacing: 2px;
+}
+.banner h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #42200b;
+    font-size: 114px;
+	text-shadow: 3px 3px #fff;
+    text-transform: uppercase;
+}
+.banner h2{
+    font-family: 'Alfa Slab One', cursive;
+    color: #42200b;
+    font-size: 56px;
+	text-shadow: 3px 3px #fff;
+    text-transform: uppercase;
+}
+/* Burger Gallary CSS */
+.burger-gallary{
+    padding: 80px 0;
+}
+.burger-gallary h1{
+	font-size: 2rem;
+}
+.g-left{
+    padding: 20px;
+    position: relative;
+}
+.g-left img{
+    transition: .5s;
+	cursor: pointer;
+}
+.g-left img:hover{
+    box-shadow: 15px 15px 40px rgba(160, 160, 160, 0.9);
+}
+.gr-top{
+    padding: 20px;
+    position: relative;
+}
+.gr-top img{
+    transition: .5s;
+	cursor: pointer;
+}
+.gr-top img:hover{
+    box-shadow: 15px 15px 40px rgba(160, 160, 160, 0.9);
+} 
+.gr-bottom{ 
+   padding: 20px;
+   position: relative;
+}
+.gr-bottom img{
+    transition: .5s;
+	cursor: pointer;
+}
+.gr-bottom img:hover{
+    box-shadow: 15px 15px 40px rgba(160, 160, 160, 0.9);
+} 
+.g-text{
+	position: absolute;
+	top: 40px;
+	left: 45px;
+	width: 25%;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+.g-text1{
+    width: 100% !important;
+}
+/* Burger Gallary CSS */
+.burger-gallary{
+    padding: 80px 0;
+}
+.order-title button{
+	font-family: 'Bebas Neue', cursive;
+	padding: 5px 15px;
+	font-size: 25px;
+	background: #ffc135;
+	border: none;
+	color: #42200b;
+    border-radius: 5px;
+	cursor: pointer;
+}
+.order-title h1 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	margin: 30px 0;
+	text-transform: uppercase;
+	color: #42200b;
+	letter-spacing: 2px;
+}
+.order-title p {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #42200b;
+}
+.burger-item {
+	margin-top: 25px;
+}
+.burger-item img{
+    margin-bottom: 50px;
+    height: 250px;
+	cursor: pointer;
+}
+.burger-item h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 37px;
+    color: #42200b;
+}
+.burger-item p{
+    font-family: 'Bebas Neue', cursive;
+    color: #42200b;
+    margin: 20px 0;
+    width: 360px;
+}
+.burger-item button{
+    font-family: 'Alfa Slab One', cursive;
+    color: #fff;
+    background: red;
+    padding: 10px 25px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+/* Slider Burfer Section CSS */
+.slider-burger-section{
+    padding: 80px 0;
+}
+.slider-section{
+    padding: 30px;
+    box-shadow: 10px 10px 20px rgba(160, 160, 160, 0.8);
+    border-radius: 5px;
+}
+.s-text{
+	padding: 10px;
+}
+.s-text h2{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d3d3d;
+	font-size: 29px;
+}
+.s-text h1{
+	font-family: 'Alfa Slab One', cursive;
+	color: #42200b;
+	font-size: 41px;
+	margin-bottom: 20px;
+}
+.s-text p {
+	color: #42200b;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
+	font-size: 20px;
+}
+.s-img img{
+    border-radius: 5px;
+	cursor: pointer;
+}
+/* Contant From Section CSS */
+.contant-from-section{
+    background-image: url(../img/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+.c-title h2{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #42200b;
+    font-size: 29px;
+}
+.c-title h1 {
+	font-family: 'Alfa Slab One', cursive;
+	text-align: center;
+	color: #42200b;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.c-input-tag{
+	padding: 100px 0;
+}
+.input-item{
+	padding: 10px 0px;
+}
+.input-item input{
+	padding: 12px 15px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+.c-w-60{
+    width: 70%;
+}
+.input-item button{
+	background: red;
+	border: none;
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+	font-size: 23px;
+	border-radius: 5px;
+    transition: .5s;
+}
+/* .input-item button:hover{
+    background: rgb(204, 19, 19);
+} */
+/* Fotter Section CSS */
+.fotter-section{
+    padding: 80px 0;
+}
+.fotter{
+    background-image: url(../img/banner2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    border-radius: 5px;
+}
+.ft-left{
+    padding: 45px;
+}
+.ft-left img{
+	cursor: pointer;
+}
+.ft-left p{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 20px;
+	margin: 30px 0;
+	line-height: 29px;
+}
+.ft-right {
+	padding: 116px;
+}
+.ft-location {
+	color: #fff;
+	display: flex;
+	margin-bottom: 10px;
+	font-family: 'Bebas Neue', cursive;
+	width: 287px;
+}
+.ft-location img {
+	color: #fff;
+	height: 26px;
+	margin-right: 34px;
+	cursor: pointer;
+}
+.ft-location p{
+    font-size: 20px;
+}
+.ft-location2{
+    display: flex;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+.ft-location2 img{
+	color: #fff;
+	margin-right: 28px;
+	height: 25px;
+	width: 32px;
+	cursor: pointer;
+}
+.ft-location2 p{
+    font-size: 20px;
+}
+/* fotter Bottom CSS */
+
+.fb-left{
+	color: #fff;
+	font-size: 21px;
+	font-family: 'Bebas Neue', cursive;
+	padding: 30px;
+	margin-top: 80px;
+}
+.fb-right{
+	margin-top: 80px;
+	padding: 30px;
+}
+.fb-right li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.fb-right a{
+	background: #fff;
+	padding: 10px 12px;
+	border-radius: 50px;
+	font-size: 18px;
+	color: #050505;
+	transition: .4s;
+}
